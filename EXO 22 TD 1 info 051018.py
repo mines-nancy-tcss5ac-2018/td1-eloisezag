@@ -3,7 +3,7 @@ def score(w):
     score = 0
     n = len(w)
     for i in range(1, n-1):
-        score = score + ord( w[i] ) - ord['A'] + 1
+        score = score + ord( w[i] ) - ord('A') + 1
     return score
 
 def trier(f):
